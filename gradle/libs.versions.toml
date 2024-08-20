@@ -15,6 +15,7 @@ lifecycleExtensions = "2.2.0"
 lifecycleLivedataKtx = "2.9.0-alpha01"
 lifecycleViewmodel = "2.9.0-alpha01"
 lifecycleViewmodelKtx = "2.9.0-alpha01"
+playServicesContextmanager = "9.4.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +32,7 @@ androidx-lifecycle-extensions = { group = "androidx.lifecycle", name = "lifecycl
 androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
 androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
 androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+play-services-contextmanager = { group = "com.google.android.gms", name = "play-services-contextmanager", version.ref = "playServicesContextmanager" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
